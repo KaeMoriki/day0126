@@ -1,0 +1,147 @@
+header{
+    display: flex;
+    align-items: center;
+    max-width: 960px; 
+    height: 150px;
+    justify-content: space-between;
+    padding: 5% 20%;
+
+   
+}
+.header-right{
+    width: 354px;
+}
+
+.header-right ul{
+  display: flex;
+  justify-content: space-between;
+   
+}
+
+
+.mainpic{
+    width: 100%;
+
+}
+
+#Works ul li{
+    width: 31%;
+}
+
+#Works ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+h2{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+
+
+#Works{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+ 
+}
+.wrapper{
+    max-width: 960px;
+    margin: 0 auto 100px auto;
+    padding: 30px;
+    width: 100%;
+   
+  
+}
+main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    max-width: 100%;
+}
+.Newsdates p{
+    border-bottom:solid 1px rgba(128, 128, 128, 0.931);
+    padding: 25px 30px;
+}
+
+.txt{
+    border-top: solid 1px rgba(128, 128, 128, 0.931);
+}
+
+.namebox{
+    width: 700px;
+    height: 50px;
+    border: solid 1px;
+    color: grey;
+    margin-bottom: 10px;
+}
+.emailbox{
+    width: 700px;
+    height: 50px;
+    border: solid 1px;
+    margin-bottom: 10px;
+    color: grey;
+}
+.messagebox{
+    width: 700px;
+    height: 50px;
+    border: solid 1px;
+    margin-bottom: 10px;
+    color: grey;
+}
+
+
+.button{
+    background-color:  #24292e;
+    width: 200px;
+    height: 54%;
+    color: white;
+    justify-content: center;
+}
+.form{
+    width: 960px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+footer{
+    width: 100%;
+    height: 20px;
+    background-color: rgb(5, 5, 41);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+footer p{
+    color: white;
+    text-align: center;
+}
+label{
+    display: inline-block;
+    width: 82px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 780px){
+    header{
+        font-size: 10px;
+    }
+      
+}
+      
+    
+    
